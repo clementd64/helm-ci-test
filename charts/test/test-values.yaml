@@ -104,4 +104,5 @@ nodeSelector: {}
 
 tolerations: []
 
-affinity: {}
+affinity:
+  foo: bar
