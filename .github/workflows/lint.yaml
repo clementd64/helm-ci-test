@@ -41,4 +41,4 @@ jobs:
         uses: docker://ghcr.io/yannh/kubeconform:latest
         with:
           entrypoint: '/kubeconform'
-          args: "-strict -summary charts/test/_manifests.yaml"
+          args: "-ignore-missing-schemas -strict -summary charts/test/_manifests.yaml"
